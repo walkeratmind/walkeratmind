@@ -1,3 +1,6 @@
+<p align="right">
+<a  href="https://visitorbadge.io/status?path=github.com%2Fwalkeratmind%2Fwalkeratmind"><img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fwalkeratmind%2Fwalkeratmind&label=visitors&labelColor=%23219ebc&countColor=%2309bc8a&style=flat-square" /></a>
+</p>
 <h1 align="center"><code>Hi there 👋</code></h1>
 
 <!-- <img src="assets/header.png"></img> -->
@@ -48,11 +51,11 @@
 
 ### 🚀&nbsp; Stats
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/walkeratmind">
     <img src="https://komarev.com/ghpvc/?username=walkeratmind&color=blue&style=flat-square" />
   </a>
-</p>
+</p> -->
 
 <p align="center" width="100%">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=walkeratmind&theme=tokyonight" />
