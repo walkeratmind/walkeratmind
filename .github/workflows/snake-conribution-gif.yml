@@ -2,9 +2,9 @@
 name: 🐍 Generate Snake Contribution GIF
 on:
   # run on every push on the master branch
-  push:
-    branches:
-    - main
+  # push:
+  #   branches:
+  #   - main
   workflow_dispatch: # Manual dispatch
   schedule:
     - cron: '30 23 * * *' # Runs at 23:30 every day.
