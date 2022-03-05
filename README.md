@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img width="600" src="https://raw.githubusercontent.com/walkeratmind/walkeratmind/main/assets/github-contribution-grid-snake.svg" />
+<img width="100%" src="https://raw.githubusercontent.com/walkeratmind/walkeratmind/main/assets/github-contribution-grid-snake.svg" />
 </p>
 
 <div style="display: flex; justify-content: space-between;">
