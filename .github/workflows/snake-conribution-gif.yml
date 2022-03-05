@@ -1,0 +1,35 @@
+# Generates pretty snake animation, using @Platane's awesome snk action
+name: 🐍 Generate Snake Contribution GIF
+on:
+  # run on every push on the master branch
+  push:
+    branches:
+    - main
+  workflow_dispatch: # Manual dispatch
+  schedule:
+    - cron: '30 23 * * *' # Runs at 23:30 every day.
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Generate Snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          gif_out_path: assets/github-contribution-grid-snake.gif
+          svg_out_path: assets/github-contribution-grid-snake.svg
+      # Commit the changes
+      - name: Commit files
+        run: |
+          git config user.email "rakeshhniraulaa@gmail.com"
+          git config user.name "rakesh"
+          git add .
+          git commit -m ":snake: update snake contribution animation"
+      # Push the changes
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
