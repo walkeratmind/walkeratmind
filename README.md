@@ -1,7 +1,8 @@
+<h1 align="center"><code>Hello 👋, I'm Rakesh</code></h1>
 
-<img src="assets/header.png"></img>
+<!-- <img src="assets/header.png"></img> -->
 
-<p align="left">
+<p align="center">
   <a href="https://twitter.com/Walker_at_Mind"><img src="https://img.shields.io/badge/-@Walker_at_Mind-00acee?style=flat&logo=Twitter&logoColor=white" /></a>
   <a href="https://github.com/walkeratmind"><img src="https://img.shields.io/badge/-walkeratmind-3a3a3a?style=flat&logo=GitHub&logoColor=white" /></a>
   <a href="https://rakeshniraula.com.np"><img src="https://img.shields.io/badge/-rakeshniraula.com.np-ff5757?style=flat&logo=ApacheSpark&logoColor=white" /></a>
