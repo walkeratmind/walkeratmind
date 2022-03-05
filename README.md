@@ -1,4 +1,4 @@
-<h1 align="center"><code>Hi there <a href="https://emoji.gg/emoji/wavegif_1860"><img src="https://emoji.gg/assets/emoji/wavegif_1860.gif" width="64px" height="64px" alt="wavegif"></a></code></h1>
+<h1 align="center"><code>Hi there 👋</code></h1>
 
 <!-- <img src="assets/header.png"></img> -->
 
