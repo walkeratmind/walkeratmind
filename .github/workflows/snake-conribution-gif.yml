@@ -18,22 +18,21 @@ jobs:
       - name: Generate Snake GIF
         uses: Platane/snk@v3
         with:
-          # GitHub username to read the contribution graph from (required)
           github_user_name: ${{ github.repository_owner }}
-
-          # List of files to generate.
-          # One file per line. Each output can be customized with options as query string.
-          # Supported options:
-          # - palette:     A preset color, one of [github, github-dark, github-light]
-          # - color_snake: Color of the snake
-          # - color_dots:  Comma-separated list of dot colors.
-          #                The first one is for 0 contribution, then it goes from the low contribution to the highest.
-          #                Exactly 5 colors are expected.
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-        env:
-          # A GitHub token is required to fetch the contribution calendar from the GitHub API
-          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+          assets/github-snake.svg
+          assets/github-snake-dark.svg?palette=github-dark
+          assets/github-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+      # Commit the changes
+      - name: Commit files
+        run: |
+          git config user.email "rakeshhniraulaa@gmail.com"
+          git config user.name "rakesh"
+          git add .
+          git commit -m ":snake: update snake contribution animation"
+      # Push the changes
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
