@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<img width="100%" src="https://raw.githubusercontent.com/walkeratmind/walkeratmind/main/assets/github-contribution-grid-snake.svg" />
+<img width="100%" src="https://raw.githubusercontent.com/walkeratmind/walkeratmind/main/assets/github-snake.svg" />
 </p>
 
 ### 🛠️ Languages & Tools
