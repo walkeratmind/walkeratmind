@@ -1,5 +1,5 @@
 # Generates pretty snake animation, using @Platane's awesome snk action
-name: 🐍 Generate Snake Contribution GIF
+  name: 🐍 Generate Snake Contribution GIF
 - uses: Platane/snk@v3
   with:
     # github user name to read the contribution graph from (**required**)
