@@ -22,4 +22,4 @@ name: 🐍 Generate Snake Contribution GIF
 
   env:
     # a github token is required to fetch the contribution calendar from github API
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
