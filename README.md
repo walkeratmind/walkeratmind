@@ -12,7 +12,9 @@
   <a href="https://www.linkedin.com/in/rakesh-niraula-5596b013a"><img src="https://img.shields.io/badge/Rakesh Niraula-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" /></a>
 </p>
 
-
+<p align="center">
+<img width="100%" src="https://raw.githubusercontent.com/walkeratmind/walkeratmind/main/assets/github-contribution-grid-snake.svg" />
+</p>
 
 ### 🛠️ Languages & Tools
 
